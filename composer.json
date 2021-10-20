@@ -1,0 +1,15 @@
+{
+  "name": "bigland/yii2-group-queue",
+  "description": "Async chain for Yii2 Queue",
+  "type": "yii2-extension",
+  "require": {
+    "yiisoft/yii2": "~2.0.15",
+    "yiisoft/yii2-queue": "~2.3.0"
+  },
+  "license": "BSD-3-Clause",
+  "autoload": {
+    "psr-4": {
+      "bigland\\queue\\chain\\": "src/chain"
+    }
+  }
+}
